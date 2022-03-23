@@ -4,7 +4,7 @@ import HomePage from '../../support/pageObjects/HomePage'
 import ProductsPage from '../../support/pageObjects/ProductsPage'
 import ProductsSummaryPage from '../../support/pageObjects/ProductsSummaryPage'
 
-describe('Test Suite - Rahul Shetty Automation Practice',function(){
+describe('Test Suite - Rahul Shetty Automation Practice - _13_Cypress_POM_Assert_SumOfProductPrice',function(){
     
   before(() => {
     // runs once before all tests in the block
@@ -13,7 +13,7 @@ describe('Test Suite - Rahul Shetty Automation Practice',function(){
     })//then
   })//before
  
-    it('My First Test case for navigating to some URL',function(){
+    it('Test case for POM_Assert_SumOfProductPrice',function(){
 
         /** HOME PAGE - START*/
 

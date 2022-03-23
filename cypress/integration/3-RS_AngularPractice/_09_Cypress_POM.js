@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 import HomePage from '../../support/pageObjects/HomePage'
 
-describe('Test Suite - Rahul Shetty Automation Practice',function(){
+describe('Test Suite - Rahul Shetty Automation Practice - _09_Cypress_POM',function(){
     
   before(() => {
     // runs once before all tests in the block
@@ -11,7 +11,7 @@ describe('Test Suite - Rahul Shetty Automation Practice',function(){
     })//then
   })//before
  
-    it('My First Test case for navigating to some URL',function(){
+    it('Test case for Design pattern - Page Object Model',function(){
         cy.visit('https://rahulshettyacademy.com/angularpractice/')
         cy.log('Application URL : '+cy.url())
         

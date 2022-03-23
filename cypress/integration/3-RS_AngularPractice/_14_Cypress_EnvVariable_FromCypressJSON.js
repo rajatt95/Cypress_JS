@@ -1,8 +1,8 @@
 /// <reference types="Cypress" />
 
-describe('Test Suite - Rahul Shetty Automation Practice',function(){
+describe('Test Suite - Rahul Shetty Automation Practice - _14_Cypress_EnvVariable_FromCypressJSON',function(){
     
-    it('My First Test case for navigating to some URL',function(){
+    it('Test case for Environment Variable from cypress.json file',function(){
 
         /** HOME PAGE - START*/
 

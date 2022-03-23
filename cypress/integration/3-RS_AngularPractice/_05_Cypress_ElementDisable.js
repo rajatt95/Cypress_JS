@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe('Test Suite - Rahul Shetty Automation Practice',function(){
+describe('Test Suite - Rahul Shetty Automation Practice - _05_Cypress_ElementDisable',function(){
 
   before(() => {
     // runs once before all tests in the block
@@ -15,7 +15,7 @@ describe('Test Suite - Rahul Shetty Automation Practice',function(){
   })
 
     
-    it('My First Test case for navigating to some URL',function(){
+    it('Test case for handling Element Disable',function(){
         cy.visit('https://rahulshettyacademy.com/angularpractice/')
         cy.log('Application URL : '+cy.url())
         

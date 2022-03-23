@@ -5,6 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test_Reference": "echo \"Error: no test specified\" && exit 1",
+    "Comment_1":"Sarthak - START=======================",
+    "cy-open":"cypress open",
+    "test_chrome_single_sarthak": "cypress run --spec cypress/integration/3-RS_AngularPractice/_13_Cypress_POM_Assert_SumOfProductPrice.js --browser chrome --headed --reporter mochawesome",
+    "Comment_2":"Sarthak - END=======================",
     "test":"node_modules/.bin/cypress run",
     "test_firefox_single": "npm run test -- --spec cypress/integration/3-RS_AngularPractice/_13_Cypress_POM_Assert_SumOfProductPrice.js --browser firefox --headed --reporter mochawesome",
     "test_chrome_single": "node_modules/.bin/cypress run --spec cypress/integration/3-RS_AngularPractice/_13_Cypress_POM_Assert_SumOfProductPrice.js --browser chrome --headed --reporter mochawesome",

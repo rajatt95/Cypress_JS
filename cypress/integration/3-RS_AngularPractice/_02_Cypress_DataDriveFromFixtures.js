@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe('Test Suite - Rahul Shetty Automation Practice',function(){
+describe('Test Suite - Rahul Shetty Automation Practice - _02_Cypress_DataDriveFromFixtures',function(){
 
   before(() => {
     // runs once before all tests in the block
@@ -14,7 +14,7 @@ describe('Test Suite - Rahul Shetty Automation Practice',function(){
     // runs before each test in the block
   })
 
-    it('My First Test case for navigating to some URL',function(){
+    it('Test case for Data-Drive from Fixtures',function(){
         cy.visit('https://rahulshettyacademy.com/angularpractice/')
         cy.log('Application URL : '+cy.url())
         

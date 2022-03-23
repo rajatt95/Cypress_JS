@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 1,
-    "start": "2022-03-23T08:39:07.403Z",
-    "end": "2022-03-23T08:39:34.660Z",
-    "duration": 27257,
+    "start": "2022-03-23T13:09:13.612Z",
+    "end": "2022-03-23T13:09:35.855Z",
+    "duration": 22243,
     "testsRegistered": 1,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "4716184e-7f58-40b7-ab5d-7dbffc233b71",
+      "uuid": "1662df50-5363-42f6-9456-8b7c233bb11f",
       "title": "",
       "fullFile": "cypress/integration/3-RS_AngularPractice/_16_Cypress_RetryFailedTest.js",
       "file": "cypress/integration/3-RS_AngularPractice/_16_Cypress_RetryFailedTest.js",
@@ -27,18 +27,18 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1327acad-31f8-4b0a-8167-d4efb64fc065",
-          "title": "Test Suite - Rahul Shetty Automation Practice",
+          "uuid": "156505fa-b43b-48cc-949e-b1e3c531f2e2",
+          "title": "Test Suite - Rahul Shetty Automation Practice - _16_Cypress_RetryFailedTest",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "My First Test case for navigating to some URL",
-              "fullTitle": "Test Suite - Rahul Shetty Automation Practice My First Test case for navigating to some URL",
+              "title": "Test case for Retry Failed Tests",
+              "fullTitle": "Test Suite - Rahul Shetty Automation Practice - _16_Cypress_RetryFailedTest Test case for Retry Failed Tests",
               "timedOut": null,
-              "duration": 9417,
+              "duration": 8653,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,8 +51,8 @@
                 "estack": "AssertionError: Timed out retrying after 6000ms: Expected to find element: `:nth-child(1) > .form-control`, but never found it.\n    at Context.eval (https://rahulshettyacademy.com/__cypress/tests?p=cypress/integration/3-RS_AngularPractice/_16_Cypress_RetryFailedTest.js:107:8)",
                 "diff": null
               },
-              "uuid": "66b53bac-0371-41e7-9cdf-69b11380842f",
-              "parentUUID": "1327acad-31f8-4b0a-8167-d4efb64fc065",
+              "uuid": "7bf99314-c03c-4dd1-b7ae-2db58614ffc8",
+              "parentUUID": "156505fa-b43b-48cc-949e-b1e3c531f2e2",
               "isHook": false,
               "skipped": false
             }
@@ -60,11 +60,11 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "66b53bac-0371-41e7-9cdf-69b11380842f"
+            "7bf99314-c03c-4dd1-b7ae-2db58614ffc8"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 9417,
+          "duration": 8653,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

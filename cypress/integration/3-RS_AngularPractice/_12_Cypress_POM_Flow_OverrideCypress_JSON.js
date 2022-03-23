@@ -4,7 +4,7 @@ import HomePage from '../../support/pageObjects/HomePage'
 import ProductsPage from '../../support/pageObjects/ProductsPage'
 import ProductsSummaryPage from '../../support/pageObjects/ProductsSummaryPage'
 
-describe('Test Suite - Rahul Shetty Automation Practice',function(){
+describe('Test Suite - Rahul Shetty Automation Practice - _12_Cypress_POM_Flow_OverrideCypress_JSON',function(){
     
   before(() => {
     // runs once before all tests in the block
@@ -13,7 +13,7 @@ describe('Test Suite - Rahul Shetty Automation Practice',function(){
     })//then
   })//before
  
-    it('My First Test case for navigating to some URL',function(){
+    it('Test case for press_POM_Flow_Override Cypress.json file',function(){
 
       //This is similar to Explicit wait in Selenium WebDriver
       Cypress.config('pageLoadTimeout', 100000) // 10 seconds for this particular test

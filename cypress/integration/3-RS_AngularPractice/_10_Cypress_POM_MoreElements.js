@@ -2,7 +2,7 @@
 import HomePage from '../../support/pageObjects/HomePage'
 
 
-describe('Test Suite - Rahul Shetty Automation Practice',function(){
+describe('Test Suite - Rahul Shetty Automation Practice - _10_Cypress_POM_MoreElements',function(){
     
   before(() => {
     // runs once before all tests in the block
@@ -11,8 +11,8 @@ describe('Test Suite - Rahul Shetty Automation Practice',function(){
     })//then
   })//before
  
-    it('My First Test case for navigating to some URL',function(){
-        cy.visit('https://rahulshettyacademy.com/angularpractice/')
+  it('Test case for Design pattern - Page Object Model - more Elements',function(){
+    cy.visit('https://rahulshettyacademy.com/angularpractice/')
         cy.log('Application URL : '+cy.url())
         
         //Object creation of HomePage.js 

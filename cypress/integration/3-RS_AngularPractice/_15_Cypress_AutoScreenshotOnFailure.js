@@ -1,8 +1,8 @@
 /// <reference types="Cypress" />
 
-describe('Test Suite - Rahul Shetty Automation Practice',function(){
+describe('Test Suite - Rahul Shetty Automation Practice - _15_Cypress_AutoScreenshotOnFailure',function(){
     
-    it('My First Test case for navigating to some URL',function(){
+    it('Test case for Screenshot On Failure',function(){
 
         /** HOME PAGE - START*/
 
