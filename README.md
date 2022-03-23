@@ -1,10 +1,11 @@
 # _02_CypressBasics
 This repository has code snippets to start With Cypress basics. (Reference: Udemy Tutor Rahul Shetty)
-Course name: Cypress -Modern Automation Testing from Scratch + Frameworks
-Tutor: Rahul Shetty
+# Course: <a href="https://www.udemy.com/course/cypress-tutorial/">Cypress -Modern Automation Testing from Scratch + Frameworks</a>
+# Tutor: <a href="https://www.udemy.com/user/rahul445/">Rahul Shetty</a>
 
 ------------------------------------------------------------------------------------------------------------------------
-Learnings from Course (Document is completed till Section 13 of course): https://drive.google.com/drive/folders/1tne9pZjgWvfrS0l9tVHs6k1jnQHpTLoA?usp=sharing
+Learnings from Course (Document is completed till Section 13 of course): 
+<a href ="https://drive.google.com/drive/folders/1tne9pZjgWvfrS0l9tVHs6k1jnQHpTLoA?usp=sharing">Cypress -Modern Automation Testing from Scratch + Frameworks</a>
 ------------------------------------------------------------------------------------------------------------------------
 
 
