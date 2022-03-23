@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-03-23T08:39:07.403Z",
+    "end": "2022-03-23T08:39:34.660Z",
+    "duration": 27257,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "4716184e-7f58-40b7-ab5d-7dbffc233b71",
+      "title": "",
+      "fullFile": "cypress/integration/3-RS_AngularPractice/_16_Cypress_RetryFailedTest.js",
+      "file": "cypress/integration/3-RS_AngularPractice/_16_Cypress_RetryFailedTest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1327acad-31f8-4b0a-8167-d4efb64fc065",
+          "title": "Test Suite - Rahul Shetty Automation Practice",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "My First Test case for navigating to some URL",
+              "fullTitle": "Test Suite - Rahul Shetty Automation Practice My First Test case for navigating to some URL",
+              "timedOut": null,
+              "duration": 9417,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "/** HOME PAGE - START*/\n//cy.visit('https://rahulshettyacademy.com/angularpractice/')\ncy.visit('https://rahulshettyacademy.com/');\ncy.log('Application URL : ' + cy.url());\nconsole.log('Application URL : ' + cy.url());\ncy.get(':nth-child(1) > .form-control').type('Rajat Verma');\ncy.get('select').select('Male');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 6000ms: Expected to find element: `:nth-child(1) > .form-control`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 6000ms: Expected to find element: `:nth-child(1) > .form-control`, but never found it.\n    at Context.eval (https://rahulshettyacademy.com/__cypress/tests?p=cypress/integration/3-RS_AngularPractice/_16_Cypress_RetryFailedTest.js:107:8)",
+                "diff": null
+              },
+              "uuid": "66b53bac-0371-41e7-9cdf-69b11380842f",
+              "parentUUID": "1327acad-31f8-4b0a-8167-d4efb64fc065",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "66b53bac-0371-41e7-9cdf-69b11380842f"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 9417,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.1.1"
+    }
+  }
+}
