@@ -25,6 +25,14 @@ Cypress.Commands.add('selectProduct', (productName) => {
 
 })
 
+// Get element text
+
+// Get Page URL
+
+// Get Page Title
+
+
+
 
 //
 //

@@ -1,8 +1,8 @@
 /// <reference types="Cypress" />
 
-describe('Test Suite - Rahul Shetty Automation Practice',function(){
+describe('Test Suite - Rahul Shetty Automation Practice _08_Cypress_Alerts_BrowserEvents',function(){
 
-    it('My First Test case for navigating to some URL',function(){
+    it('Test case for _08_Cypress_Alerts_BrowserEvents',function(){
 
         //https://docs.cypress.io/api/events/catalog-of-events
 

@@ -3,7 +3,7 @@
 
 import 'cypress-iframe'
 
-describe('Test Suite - Rahul Shetty Automation Practice',function(){
+describe('Test Suite - Rahul Shetty Automation Practice _21_Cypress_Hooks',function(){
 
     beforeEach(() => {
         // runs before each test in the block
@@ -17,7 +17,7 @@ describe('Test Suite - Rahul Shetty Automation Practice',function(){
         cy.log('afterEach')
       })
     
-    it('My First Test case for navigating to some URL',function(){
+    it('Test case for _21_Cypress_Hooks',function(){
         cy.log('Application URL : '+cy.url())
     })//if
 

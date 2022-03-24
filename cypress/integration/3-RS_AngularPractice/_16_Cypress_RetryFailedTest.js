@@ -15,6 +15,7 @@ describe('Test Suite - Rahul Shetty Automation Practice - _16_Cypress_RetryFaile
         cy.get(':nth-child(1) > .form-control').type('Rajat Verma')
         cy.get('select').select('Male')
 
+        
     })//it
 
 })//describe

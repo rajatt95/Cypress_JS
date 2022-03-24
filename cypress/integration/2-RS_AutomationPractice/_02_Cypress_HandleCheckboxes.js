@@ -1,8 +1,8 @@
 /// <reference types="Cypress" />
 
-describe('Test Suite - Rahul Shetty Automation Practice',function(){
+describe('Test Suite - Rahul Shetty Automation Practice _02_Cypress_HandleCheckboxes',function(){
 
-    it('My First Test case for navigating to some URL',function(){
+    it('Test case for _02_Cypress_HandleCheckboxes',function(){
 
         //Test One -> Steps
         //Selenium WebDriver -> driver.get("https://rahulshettyacademy.com/AutomationPractice/");

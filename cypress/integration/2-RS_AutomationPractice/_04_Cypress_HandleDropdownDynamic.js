@@ -1,8 +1,8 @@
 /// <reference types="Cypress" />
 
-describe('Test Suite - Rahul Shetty Automation Practice',function(){
+describe('Test Suite - Rahul Shetty Automation Practice _04_Cypress_HandleDropdownDynamic',function(){
 
-    it('My First Test case for navigating to some URL',function(){
+    it('Test case for _04_Cypress_HandleDropdownDynamic',function(){
 
         //Selenium WebDriver -> driver.get("https://rahulshettyacademy.com/AutomationPractice/");
         cy.visit('https://rahulshettyacademy.com/AutomationPractice/')

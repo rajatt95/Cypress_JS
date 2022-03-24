@@ -3,9 +3,9 @@
 
 import 'cypress-iframe'
 
-describe('Test Suite - Rahul Shetty Automation Practice',function(){
+describe('Test Suite - Rahul Shetty Automation Practice _16_Cypress_HandleFrames',function(){
 
-    it('My First Test case for navigating to some URL',function(){
+    it('Test case for _16_Cypress_HandleFrames',function(){
 
         //Selenium WebDriver -> driver.get("https://rahulshettyacademy.com/AutomationPractice/");
         cy.visit('https://rahulshettyacademy.com/AutomationPractice/')

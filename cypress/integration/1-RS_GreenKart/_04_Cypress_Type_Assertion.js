@@ -1,9 +1,9 @@
 
 //Testing Framework - Mocha
 
-describe('My First Test Suite',function(){
+describe('Test Suite - Rahul Shetty Green Kart - _04_Cypress_Type_Assertion',function(){
 
-    it('My First Test case for navigating to some URL',function(){
+    it('Test case for _04_Cypress_Type_Assertion',function(){
 
         //Test One -> Steps
         //Selenium WebDriver -> driver.get("https://rahulshettyacademy.com/seleniumPractise/");

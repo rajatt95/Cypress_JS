@@ -1,9 +1,9 @@
 
 //Testing Framework - Mocha
 
-describe('My First Test Suite',function(){
+describe('Test Suite - Rahul Shetty Green Kart - _07_Cypress_Eq_Click',function(){
 
-    it('My First Test case for navigating to some URL',function(){
+    it('Test case for _07_Cypress_Eq_Click',function(){
 
         //Test One -> Steps
         //Selenium WebDriver -> driver.get("https://rahulshettyacademy.com/seleniumPractise/");
