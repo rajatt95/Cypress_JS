@@ -16,7 +16,7 @@ describe('Test Suite - Rahul Shetty Green Kart - _11_Cypress_AssertionElementTex
         cy.wait(2000)
  
 
-        //Aliasing
+        //Aliasing 
         cy.get('.products').as('productLocator')
 
         //cy.get('.products').find('.product').should('have.length',4)
@@ -27,7 +27,7 @@ describe('Test Suite - Rahul Shetty Green Kart - _11_Cypress_AssertionElementTex
         // $el is a wrapped jQuery element
             const productName = $el.find('h4.product-name').text()
             if(productName.includes('Cashews')){
-                cy.wrap($el).find('button').click()
+                cy.wrap($el).find('button').click() 
             }
           })
 

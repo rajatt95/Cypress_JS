@@ -1,8 +1,8 @@
 /// <reference types="Cypress" />
-import DeliveryLocationPage from '../../support/pageObjects/DeliveryLocationPage'
-import HomePage from '../../support/pageObjects/HomePage'
-import ProductsPage from '../../support/pageObjects/ProductsPage'
-import ProductsSummaryPage from '../../support/pageObjects/ProductsSummaryPage'
+import DeliveryLocationPage from '../../support/pageObjects_AngularPractice/DeliveryLocationPage'
+import HomePage from '../../support/pageObjects_AngularPractice/HomePage'
+import ProductsPage from '../../support/pageObjects_AngularPractice/ProductsPage'
+import ProductsSummaryPage from '../../support/pageObjects_AngularPractice/ProductsSummaryPage'
 
 describe('Test Suite - Rahul Shetty Automation Practice - _12_Cypress_POM_Flow_OverrideCypress_JSON',function(){
     

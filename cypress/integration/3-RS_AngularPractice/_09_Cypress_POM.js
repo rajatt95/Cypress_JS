@@ -1,5 +1,5 @@
 /// <reference types="Cypress" />
-import HomePage from '../../support/pageObjects/HomePage'
+import HomePage from '../../support/pageObjects_AngularPractice/HomePage'
 
 describe('Test Suite - Rahul Shetty Automation Practice - _09_Cypress_POM',function(){
     
