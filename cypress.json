@@ -3,7 +3,8 @@
     "viewportHeight":760,
     "viewportWidth":1100,
     "env":{
-        "application_URL":"https://rahulshettyacademy.com/angularpractice/"
+        "application_URL":"https://rahulshettyacademy.com/angularpractice/",
+        "application_URL_AutomationPractice":"https://rahulshettyacademy.com/AutomationPractice/"      
     },
     "projectId": "sahoze",
     "reporter":"mochawesome",

@@ -6,7 +6,7 @@
   "scripts": {
     "test_Reference": "echo \"Error: no test specified\" && exit 1",
     "Comment_1": "Sarthak - START=======================",
-    "cy-open": "cypress open",
+    "cypress_open": "cypress open",
     "test_chrome_single_sarthak": "cypress run --spec cypress/integration/3-RS_AngularPractice/_13_Cypress_POM_Assert_SumOfProductPrice.js --browser chrome --headed --reporter mochawesome",
     "Comment_2": "Sarthak - END=======================",
     "test": "node_modules/.bin/cypress run",
@@ -25,7 +25,9 @@
   "devDependencies": {
     "cypress": "^9.5.2",
     "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^1.6.2",
     "mocha": "^9.2.2",
     "mochawesome": "^7.1.2"
-  }
+  },
+  "cypress-xpath": "^1.6.2"
 }

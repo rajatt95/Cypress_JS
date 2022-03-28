@@ -1,27 +1,18 @@
 //https://rahulshettyacademy.com/AutomationPractice/
 class HomePage{
 
-    getLinkShop(){
-        return cy.get(':nth-child(2) > .nav-link')
+    getTextBox_SuggestionClass(){
+        return cy.get('#autocomplete')
+        //return cy.get("//input[@id='autocomplete']")
+}
 
+    getDropdown_Example(){
+        return cy.get("#dropdown-class-example")
     }
 
-    getTextBox_Name(){
-        return cy.get(':nth-child(1) > .form-control')
+    getRadioButton_Radio1(){
+        return cy.get("label[for='radio1']")
     }
-
-    getDropdown_Gender(){
-        return cy.get('select')
-    }
-
-    getRadioButton_Entrepreneur(){
-        return cy.get('#inlineRadio3')
-    }
-
-    getTextBox_TwoWayDataBiniding(){
-        return cy.get(':nth-child(4) > .ng-pristine')
-    }
-
 
 }
 

@@ -1,3 +1,5 @@
+/// <reference types="Cypress" />
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -22,7 +24,42 @@ Cypress.Commands.add('selectProduct', (productName) => {
           cy.get('button.btn.btn-info').eq(index).click()
         }
     })
+})
 
+//Navigate to application using visit()
+Cypress.Commands.add('goToApplication_AutomationPractice', () => { 
+    //cy.visit('https://rahulshettyacademy.com/angularpractice/')
+    cy.visit(Cypress.env("application_URL_AutomationPractice")) 
+})
+
+// //Click using click()
+// Cypress.Commands.add('clickOnElement', (element) => { 
+//    //element.click()
+
+//    element.each(($el, index, $list) => {
+//     // $el is a wrapped jQuery element
+//         cy.wrap($el).click()
+//   })
+
+// })
+
+// // Fill TextBox using type()
+// Cypress.Commands.add('fillTextBox', (element, textToBeFilled) => { 
+//    // element.type(textToBeFilled)
+//     element.each((el, index, $list) => {
+//             cy.wrap(el).click()
+//     })
+//  })
+
+ 
+// Wait for 2 seconds using wait()
+Cypress.Commands.add('waitForSomeTime', () => { 
+    cy.wait(2000)
+})
+
+// Wait for Given time using wait()
+Cypress.Commands.add('waitForGivenTime', (timeInSeconds) => { 
+    cy.wait(timeInSeconds*1000)
 })
 
 // _04_Cypress_Type_Assertion -> cy.get('.product').should('have.length',4)
