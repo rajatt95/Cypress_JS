@@ -7,11 +7,17 @@
         "application_URL_AutomationPractice":"https://rahulshettyacademy.com/AutomationPractice/"      
     },
     "projectId": "sahoze",
-    "reporter":"mochawesome",
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/reports/mochawesome-report",
+        "charts": true,
+        "reportPageTitle": "This is a Cypress-Mochawesome-Reporter"
+    },
     "retries": {
-        "runMode": 1,
+        "runMode": 1, 
         "openMode": 0
-    }
+    },
+    "video":false
     
 }
 
