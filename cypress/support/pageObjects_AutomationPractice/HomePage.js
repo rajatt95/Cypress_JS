@@ -2,8 +2,8 @@
 class HomePage{
 
     getTextBox_SuggestionClass(){
-        return cy.get('#autocomplete')
-        //return cy.get("//input[@id='autocomplete']")
+        //return cy.get('#autocomplete')
+        return cy.xpath("//input[@id='autocomplete']")
 }
 
     getDropdown_Example(){
