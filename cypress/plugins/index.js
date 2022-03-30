@@ -20,4 +20,27 @@ module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
   require('cypress-mochawesome-reporter/plugin')(on);
+
+    // https://docs.cypress.io/api/plugins/after-run-api#Log-the-number-of-passed-tests-of-a-run
+    // on('after:run', (results) => {
+    //   if (results) {
+    //     console.log('======================================')
+    //     console.log(results.totalPassed, 'out of', results.totalTests, 'passed')
+    //   }
+    // })
+  
+
+    // on('before:run', (details) => {
+    //   if (details.specs && details.browser) {
+    //     // details.specs and details.browser will be undefined in interactive mode
+    //     console.log('======================================')
+    //     console.log(
+    //       'Running',
+    //       details.specs.length,
+    //       'specs in',
+    //       details.browser.name
+    //     )
+    //   }
+    // })
+
 }

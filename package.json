@@ -22,7 +22,8 @@
     "Comment_3": "==================== Cypress-mochawesome-reporter - START (reports/mochawesome-report/) =======================",
     "test_edge_specsInFolder_headless_cmr": "cypress run --spec cypress/integration/1-RS_GreenKart_Copy/* --browser edge --reporter cypress-mochawesome-reporter",
     "test_edge_specsInFolder_headed_cmr": "cypress run --spec cypress/integration/1-RS_GreenKart_Copy/* --browser edge --headed --reporter cypress-mochawesome-reporter",
-    "test_edge_specsInFolder_cmr": "cypress run --spec cypress/integration/3-RS_AngularPractice/* --browser edge --headed --reporter cypress-mochawesome-reporter"
+    "test_edge_specsInFolder_angular_cmr": "cypress run --spec cypress/integration/3-RS_AngularPractice/* --browser edge --headed --reporter cypress-mochawesome-reporter",
+    "test_edge_specsInFolder_angular_headless_cmr": "cypress run --spec cypress/integration/3-RS_AngularPractice/* --browser edge --reporter cypress-mochawesome-reporter"
   },
   "author": "Rajat Verma",
   "license": "ISC",
