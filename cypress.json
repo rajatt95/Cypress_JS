@@ -11,9 +11,17 @@
     "reporterOptions": {
         "reportDir": "cypress/reports/mochawesome-report",
         "charts": true,
-        "reportPageTitle": "This is a Cypress-Mochawesome-Reporter",
+        "reportPageTitle": "Cypress-Mochawesome-Reporter",
         "embeddedScreenshots":true,
-        "inlineAssets":true
+        "inlineAssets":true,
+        "overwrite":false,
+        "autoOpen":true,
+        "reportFilename":"Automation_UI_Report_[datetime]",
+        "code":true,
+        "timestamp":"longDate",
+        "showPassed":true
+
+
     },
     "retries": {
         "runMode": 1, 

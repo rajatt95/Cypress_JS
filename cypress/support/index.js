@@ -20,4 +20,6 @@ import './commands'
 // require('./commands')
 
 import 'cypress-xpath'
+
+// https://dzone.com/articles/cypress-generate-html-results-with-screenshot -> Embedded Screenshots in Mochawesome report
 import 'cypress-mochawesome-reporter/register';
