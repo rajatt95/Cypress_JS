@@ -1,9 +1,8 @@
 //https://rahulshettyacademy.com/angularpractice/shop
 class ProductsPage{
 
-    get getLinkCheckout(){
-        return cy.get('#navbarResponsive > .navbar-nav > .nav-item > .nav-link')
-
+    elements = { 
+        link_Checkout: () => cy.get('#navbarResponsive > .navbar-nav > .nav-item > .nav-link')
     }
 
 }

@@ -1,13 +1,10 @@
 //https://rahulshettyacademy.com/angularpractice/shop
 class ProductsSummaryPage{
-
-    get getButtonCheckout(){
-        return cy.get("button[class='btn btn-success']")
-    }
-
-    get getText_TotalPrice(){
-        return cy.get("td[class='text-right'] h3 strong")
-    }
+   
+    elements = { 
+        button_Checkout:() => cy.get("button[class='btn btn-success']"),
+        text_TotalPrice:() => cy.get("td[class='text-right'] h3 strong")
+    } 
     
 }
 

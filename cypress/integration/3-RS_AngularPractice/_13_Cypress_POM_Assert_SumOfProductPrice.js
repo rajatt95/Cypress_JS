@@ -23,23 +23,23 @@ describe('Test Suite - Rahul Shetty Automation Practice - _13_Cypress_POM_Assert
         //Object creation of HomePage.js 
         //const homePage = new HomePage()
 
-        homePage.getTextBox_Name.type(this.testData_AngularPractice.name)
-        homePage.getDropdown_Gender.select(this.testData_AngularPractice.gender)
+        homePage.enterName(this.testData_AngularPractice.name)
+        homePage.selectGender(this.testData_AngularPractice.gender)
 
         //Assertion for Two-way Data Binding
-        homePage.getTextBox_TwoWayDataBiniding.should('have.value',this.testData_AngularPractice.name)
+        homePage.elements.textBox_TwoWayDataBiniding().should('have.value',this.testData_AngularPractice.name)
 
         // Assertion for Custom Attribute(minlength)
         // Expected value is 2
         //<input class="form-control ng-pristine ng-invalid ng-touched" minlength="2" name="name" required="" type="text" xpath="1">
-        homePage.getTextBox_Name.should('have.attr','minlength',2)
-        homePage.getTextBox_Name.should('have.attr','class','form-control ng-dirty ng-valid ng-touched')
-        homePage.getTextBox_Name.should('have.attr','type','text')
+        homePage.elements.textBox_Name().should('have.attr','minlength',2)
+        homePage.elements.textBox_Name().should('have.attr','class','form-control ng-dirty ng-valid ng-touched')
+        homePage.elements.textBox_Name().should('have.attr','type','text')
 
         //Assertion for Radio button(Entrepreneur) disabled
-        homePage.getRadioButton_Entrepreneur.should('be.disabled')
+        homePage.elements.radioButton_Entrepreneur().should('be.disabled')
 
-        homePage.getLinkShop.click()        
+        homePage.gotToShopTab()        
 
         // this.testData_AngularPractice.productName = "productName":["iphone X","Samsung Note 8","Nokia Edge","Blackberry"]
         this.testData_AngularPractice.productName.forEach(function(element){
@@ -51,7 +51,8 @@ describe('Test Suite - Rahul Shetty Automation Practice - _13_Cypress_POM_Assert
         /** PRODUCTS PAGE - START*/
         //const productsPage = new ProductsPage()
 
-        productsPage.getLinkCheckout.click()
+        
+        productsPage.elements.link_Checkout().click()
 
         /** PRODUCTS PAGE - END*/
 
@@ -76,7 +77,7 @@ describe('Test Suite - Rahul Shetty Automation Practice - _13_Cypress_POM_Assert
           cy.log('sum: '+sum)
         })
 
-        productsSummaryPage.getText_TotalPrice.then(function(element){
+        productsSummaryPage.elements.text_TotalPrice().then(function(element){
             var actualFinalProductPrice = element.text()
             var res = actualFinalProductPrice.split(" ")
             var actualFinalProductPrice_Formatted = res[1].trim();
@@ -85,7 +86,7 @@ describe('Test Suite - Rahul Shetty Automation Practice - _13_Cypress_POM_Assert
             expect(Number(actualFinalProductPrice_Formatted)).to.equal(sum)
           })
 
-        productsSummaryPage.getButtonCheckout.click()
+          productsSummaryPage.elements.button_Checkout().click()
 
         /** PRODUCTS SUMMARY PAGE - END*/
 
