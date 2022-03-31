@@ -12,14 +12,17 @@ describe('Test Suite - Rahul Shetty Automation Practice - _10_Cypress_POM_MoreEl
   })//before
  
   it('Test case for Design pattern - Page Object Model - more Elements',function(){
-    cy.visit('https://rahulshettyacademy.com/angularpractice/')
+        cy.visit('https://rahulshettyacademy.com/angularpractice/')
         cy.log('Application URL : '+cy.url())
         
         //Object creation of HomePage.js 
         //const homePage = new HomePage()
 
-        homePage.getTextBox_Name.type(this.testData_AngularPractice.name)
-        homePage.getDropdown_Gender.select(this.testData_AngularPractice.gender)
+        //homePage.getTextBox_Name.type(this.testData_AngularPractice.name)
+        homePage.enterName(this.testData_AngularPractice.name)
+                
+        //homePage.getDropdown_Gender.select(this.testData_AngularPractice.gender)
+        homePage.selectGender(this.testData_AngularPractice.gender)
 
         //Assertion for Two-way Data Binding
         homePage.getTextBox_TwoWayDataBiniding.should('have.value',this.testData_AngularPractice.name)
