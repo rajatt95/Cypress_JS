@@ -1,5 +1,5 @@
 /// <reference types="Cypress" />
-import HomePage from '../../support/pageObjects_AngularPractice/HomePage'
+import homePage from '../../support/pageObjects_AngularPractice/HomePage'
 
 
 describe('Test Suite - Rahul Shetty Automation Practice - _10_Cypress_POM_MoreElements',function(){
@@ -16,23 +16,23 @@ describe('Test Suite - Rahul Shetty Automation Practice - _10_Cypress_POM_MoreEl
         cy.log('Application URL : '+cy.url())
         
         //Object creation of HomePage.js 
-        const homePage = new HomePage()
+        //const homePage = new HomePage()
 
-        homePage.getTextBox_Name().type(this.testData_AngularPractice.name)
-        homePage.getDropdown_Gender().select(this.testData_AngularPractice.gender)
+        homePage.getTextBox_Name.type(this.testData_AngularPractice.name)
+        homePage.getDropdown_Gender.select(this.testData_AngularPractice.gender)
 
         //Assertion for Two-way Data Binding
-        homePage.getTextBox_TwoWayDataBiniding().should('have.value',this.testData_AngularPractice.name)
+        homePage.getTextBox_TwoWayDataBiniding.should('have.value',this.testData_AngularPractice.name)
 
         // Assertion for Custom Attribute(minlength)
         // Expected value is 2
         //<input class="form-control ng-pristine ng-invalid ng-touched" minlength="2" name="name" required="" type="text" xpath="1">
-        homePage.getTextBox_Name().should('have.attr','minlength',2)
-        homePage.getTextBox_Name().should('have.attr','class','form-control ng-dirty ng-valid ng-touched')
-        homePage.getTextBox_Name().should('have.attr','type','text')
+        homePage.getTextBox_Name.should('have.attr','minlength',2)
+        homePage.getTextBox_Name.should('have.attr','class','form-control ng-dirty ng-valid ng-touched')
+        homePage.getTextBox_Name.should('have.attr','type','text')
 
         //Assertion for Radio button(Entrepreneur) disabled
-        homePage.getRadioButton_Entrepreneur().should('be.disabled')
+        homePage.getRadioButton_Entrepreneur.should('be.disabled')
 
     })//it
 

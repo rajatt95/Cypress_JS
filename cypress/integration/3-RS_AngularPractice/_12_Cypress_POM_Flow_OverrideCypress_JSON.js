@@ -1,8 +1,8 @@
 /// <reference types="Cypress" />
-import DeliveryLocationPage from '../../support/pageObjects_AngularPractice/DeliveryLocationPage'
-import HomePage from '../../support/pageObjects_AngularPractice/HomePage'
-import ProductsPage from '../../support/pageObjects_AngularPractice/ProductsPage'
-import ProductsSummaryPage from '../../support/pageObjects_AngularPractice/ProductsSummaryPage'
+import deliveryLocationPage from '../../support/pageObjects_AngularPractice/DeliveryLocationPage'
+import homePage from '../../support/pageObjects_AngularPractice/HomePage'
+import productsPage from '../../support/pageObjects_AngularPractice/ProductsPage'
+import productsSummaryPage from '../../support/pageObjects_AngularPractice/ProductsSummaryPage'
 
 describe('Test Suite - Rahul Shetty Automation Practice - _12_Cypress_POM_Flow_OverrideCypress_JSON',function(){
     
@@ -24,25 +24,25 @@ describe('Test Suite - Rahul Shetty Automation Practice - _12_Cypress_POM_Flow_O
         cy.log('Application URL : '+cy.url())
         
         //Object creation of HomePage.js 
-        const homePage = new HomePage()
+        //const homePage = new HomePage()
 
-        homePage.getTextBox_Name().type(this.testData_AngularPractice.name)
-        homePage.getDropdown_Gender().select(this.testData_AngularPractice.gender)
+        homePage.getTextBox_Name.type(this.testData_AngularPractice.name)
+        homePage.getDropdown_Gender.select(this.testData_AngularPractice.gender)
 
         //Assertion for Two-way Data Binding
-        homePage.getTextBox_TwoWayDataBiniding().should('have.value',this.testData_AngularPractice.name)
+        homePage.getTextBox_TwoWayDataBiniding.should('have.value',this.testData_AngularPractice.name)
 
         // Assertion for Custom Attribute(minlength)
         // Expected value is 2
         //<input class="form-control ng-pristine ng-invalid ng-touched" minlength="2" name="name" required="" type="text" xpath="1">
-        homePage.getTextBox_Name().should('have.attr','minlength',2)
-        homePage.getTextBox_Name().should('have.attr','class','form-control ng-dirty ng-valid ng-touched')
-        homePage.getTextBox_Name().should('have.attr','type','text')
+        homePage.getTextBox_Name.should('have.attr','minlength',2)
+        homePage.getTextBox_Name.should('have.attr','class','form-control ng-dirty ng-valid ng-touched')
+        homePage.getTextBox_Name.should('have.attr','type','text')
 
         //Assertion for Radio button(Entrepreneur) disabled
-        homePage.getRadioButton_Entrepreneur().should('be.disabled')
+        homePage.getRadioButton_Entrepreneur.should('be.disabled')
 
-        homePage.getLinkShop().click()        
+        homePage.getLinkShop.click()        
 
         // this.testData_AngularPractice.productName = "productName":["iphone X","Samsung Note 8","Nokia Edge","Blackberry"]
         this.testData_AngularPractice.productName.forEach(function(element){
@@ -52,28 +52,28 @@ describe('Test Suite - Rahul Shetty Automation Practice - _12_Cypress_POM_Flow_O
         /** HOME PAGE - END*/
 
         /** PRODUCTS PAGE - START*/
-        const productsPage = new ProductsPage()
+        //const productsPage = new ProductsPage()
 
-        productsPage.getLinkCheckout().click()
+        productsPage.getLinkCheckout.click()
 
         /** PRODUCTS PAGE - END*/
 
         /** PRODUCTS PAGE - START*/
-        const productsSummaryPage = new ProductsSummaryPage()
-        productsSummaryPage.getButtonCheckout().click()
+        //const productsSummaryPage = new ProductsSummaryPage()
+        productsSummaryPage.getButtonCheckout.click()
 
         /** PRODUCTS PAGE - END*/
 
 
         /** DELIVERY LOCATION PAGE - START*/
-        const deliveryLocationPage = new DeliveryLocationPage()
-        deliveryLocationPage.getTextbox_Location().type('India')
-        deliveryLocationPage.getDropdown_Location().click()
-        deliveryLocationPage.getCheckbox_Agree().click()
-        deliveryLocationPage.getButton_Purchase().click()
+        //const deliveryLocationPage = new DeliveryLocationPage()
+        deliveryLocationPage.getTextbox_Location.type('India')
+        deliveryLocationPage.getDropdown_Location.click()
+        deliveryLocationPage.getCheckbox_Agree.click()
+        deliveryLocationPage.getButton_Purchase.click()
 
         //deliveryLocationPage.getMessage_Success().should('should.have','Success!')
-        deliveryLocationPage.getMessage_Success().should('include.text','Success!')
+        deliveryLocationPage.getMessage_Success.should('include.text','Success!')
 
         /** DELIVERY LOCATION PAGE - END*/
 

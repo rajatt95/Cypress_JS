@@ -1,5 +1,6 @@
 /// <reference types="Cypress" />
-import HomePage from '../../support/pageObjects_AngularPractice/HomePage'
+//import HomePage from '../../support/pageObjects_AngularPractice/HomePage'
+import homePage from '../../support/pageObjects_AngularPractice/HomePage'
 
 describe('Test Suite - Rahul Shetty Automation Practice - _09_Cypress_POM',function(){
     
@@ -16,15 +17,15 @@ describe('Test Suite - Rahul Shetty Automation Practice - _09_Cypress_POM',funct
         cy.log('Application URL : '+cy.url())
         
         //Object creation of HomePage.js 
-        const homePage = new HomePage()
+        //const homePage = new HomePage()
 
          // cy.get(':nth-child(1) > .form-control').type('Rajat Verma')
          //cy.get(':nth-child(1) > .form-control').type(this.testData_AngularPractice.name)
-         homePage.getTextBox_Name().type(this.testData_AngularPractice.name)
+         homePage.getTextBox_Name.type(this.testData_AngularPractice.name)
 
          // cy.get('select').select('Male')
          //cy.get('select').select(this.testData_AngularPractice.gender)
-         homePage.getDropdown_Gender().select(this.testData_AngularPractice.gender)
+         homePage.getDropdown_Gender.select(this.testData_AngularPractice.gender)
 
 
     })//it
