@@ -1,18 +1,15 @@
 //https://rahulshettyacademy.com/angularpractice/
 class HomePage{
+    
+    //get getLinkShop -> This is not an function now
+    //To use it, 
+        //homePage.getLinkShop - Right
+        //homePage.getLinkShop() - Wrong
 
     get getLinkShop(){
         return cy.get(':nth-child(2) > .nav-link')
     }
-
-    get getTextBox_Name(){
-        return cy.get(':nth-child(1) > .form-control')
-    }
-
-    get getDropdown_Gender(){
-        return cy.get('select')
-    }
-
+ 
     get getRadioButton_Entrepreneur(){
         return cy.get('#inlineRadio3')
     }
@@ -21,6 +18,27 @@ class HomePage{
         return cy.get(':nth-child(4) > .ng-pristine')
     }
 
+    /** Operations */
+
+    /** TextBox: Name */
+    get getTextBox_Name(){
+         return cy.get(':nth-child(1) > .form-control')
+    }
+    enterName(data){
+        //homePage.getTextBox_Name.type(this.testData_AngularPractice.name)
+        cy.get(':nth-child(1) > .form-control').type(data)
+    }
+
+    /** Dropdown: Gender */
+    // get getDropdown_Gender(){
+    //     return cy.get('select')
+    // }
+
+    selectGender(data){
+        cy.log(data)
+        //homePage.getDropdown_Gender.select(this.testData_AngularPractice.gender)
+        cy.get('select').select(data)
+    }
 
 }
 
