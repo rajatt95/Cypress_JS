@@ -1,0 +1,105 @@
+<!DOCTYPE HTML><html> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1">  <title> BrowserStack Cypress Report </title> <style type="text/css"> .report-container {
+  font-family: HelveticaNeue;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 8px;
+  border: solid 1px #dddddd;
+  background-color: #f7f7f7;
+}
+.build-header {
+  padding: 10px 16px;
+  display: flex;
+  background-color: #f7f7f7;
+  border: solid 1px #ddd;
+}
+.build-meta {
+  flex-grow: 1;
+  flex-direction: column;
+  display: flex;
+}
+.spec-meta {
+  flex-direction: column;
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  margin-right: 40px;
+}
+.build-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.project-name {
+  font-size: 12px;
+  color: #666;
+}
+.build-link {
+  display: flex;
+  align-items: center;
+}
+.build-link a {
+  cursor: pointer;
+  font-size: 12px;
+  color: #009cfc;
+  text-decoration: none;
+}
+.spec-row {
+  display: flex;
+  border: solid 1px #ddd;
+}
+.spec-row:nth-child(odd) {
+  background-color: #fff;
+}
+.spec-row:nth-child(even) {
+  background-color: #fbfbfb;
+}
+.spec-name {
+  font-size: 16px;
+  color: #333
+}
+.spec-path {
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+  color: #666;
+  padding-top: 8px;
+  font-size: 12px;
+}
+.spec-stats {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-top: 16px;
+}
+.spec-stats-failed {
+  color: #b22617;
+}
+.spec-stats-passed {
+  color: #68b300;
+}
+.spec-sessions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 12px 0;
+  height: min-content;
+}
+.session-detail {
+  padding: 8px 16px;
+  min-width: 160px;
+  max-width: 160px;
+  height: min-content;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-decoration: underline;
+}
+.session-passed a {
+  color: #68b300;
+}
+.session-failed a {
+  color: #d04536;
+}
+ </style> </head> <body> <div class='report-container'> <div class='build-header'> <div class='build-meta'> <span class='build-name'> Build #007: 8 </span> <span class='project-name'> Cypress - UI Test Automation </span> </div> <div class='build-link'> <a href='https://automate.browserstack.com/dashboard/v2/builds/e71ade88c0cb5c0d4e15529d98e56c947e8fa220' rel='noreferrer noopener' target='_blank'> View on BrowserStack </a> </div> </div> <div class='build-table'>  <div class='spec-row'> <div class='spec-meta'> <span class='spec-name'> _04_Cypress_Type_Assertion.js </span> <span class='spec-path'> cypress/integration/1-RS_GreenKart_Copy </span> <span class='spec-stats spec-stats-failed'> 3/3 FAILED </span> </div> <div class='spec-sessions'>  <div class="session-detail session-failed"> <a href="https://automate.browserstack.com/dashboard/v2/builds/e71ade88c0cb5c0d4e15529d98e56c947e8fa220/cypress-tests/tests/b9ee5d2ebee70e2ecee73af516a5e79243c9f0d5Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLVJTX0dyZWVuS2FydF9Db3B5L18wNF9DeXByZXNzX1R5cGVfQXNzZXJ0aW9uLmpz" rel="noreferrer noopener" target="_blank"> &#x2717;  chrome 99, Windows 10 </a> </div> <div class="session-detail session-failed"> <a href="https://automate.browserstack.com/dashboard/v2/builds/e71ade88c0cb5c0d4e15529d98e56c947e8fa220/cypress-tests/tests/c231804ae2c4c817c52592f99ac9618639d5f632Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLVJTX0dyZWVuS2FydF9Db3B5L18wNF9DeXByZXNzX1R5cGVfQXNzZXJ0aW9uLmpz" rel="noreferrer noopener" target="_blank"> &#x2717;  firefox 97, OS X Mojave </a> </div> <div class="session-detail session-failed"> <a href="https://automate.browserstack.com/dashboard/v2/builds/e71ade88c0cb5c0d4e15529d98e56c947e8fa220/cypress-tests/tests/f42fcb09949fc61ee55a7f9f9ce39f67ea6708b3Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLVJTX0dyZWVuS2FydF9Db3B5L18wNF9DeXByZXNzX1R5cGVfQXNzZXJ0aW9uLmpz" rel="noreferrer noopener" target="_blank"> &#x2717;  edge 98, OS X Catalina </a> </div> </div> </div> <div class='spec-row'> <div class='spec-meta'> <span class='spec-name'> _03_Cypress_Type.js </span> <span class='spec-path'> cypress/integration/1-RS_GreenKart_Copy </span> <span class='spec-stats spec-stats-passed'> 3/3 PASSED </span> </div> <div class='spec-sessions'>  <div class="session-detail session-passed"> <a href="https://automate.browserstack.com/dashboard/v2/builds/e71ade88c0cb5c0d4e15529d98e56c947e8fa220/cypress-tests/tests/f42fcb09949fc61ee55a7f9f9ce39f67ea6708b3Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLVJTX0dyZWVuS2FydF9Db3B5L18wM19DeXByZXNzX1R5cGUuanM=" rel="noreferrer noopener" target="_blank"> &#10004;  edge 98, OS X Catalina </a> </div> <div class="session-detail session-passed"> <a href="https://automate.browserstack.com/dashboard/v2/builds/e71ade88c0cb5c0d4e15529d98e56c947e8fa220/cypress-tests/tests/1bc4d8e5e8994bcacd9d01f73bda8ff24cac7024Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLVJTX0dyZWVuS2FydF9Db3B5L18wM19DeXByZXNzX1R5cGUuanM=" rel="noreferrer noopener" target="_blank"> &#10004;  chrome 99, Windows 10 </a> </div> <div class="session-detail session-passed"> <a href="https://automate.browserstack.com/dashboard/v2/builds/e71ade88c0cb5c0d4e15529d98e56c947e8fa220/cypress-tests/tests/d36fa9e4d3413b356b53461128fd242c6f45d911Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLVJTX0dyZWVuS2FydF9Db3B5L18wM19DeXByZXNzX1R5cGUuanM=" rel="noreferrer noopener" target="_blank"> &#10004;  firefox 97, OS X Mojave </a> </div> </div> </div> <div class='spec-row'> <div class='spec-meta'> <span class='spec-name'> _02_Cypress_Visit.js </span> <span class='spec-path'> cypress/integration/1-RS_GreenKart_Copy </span> <span class='spec-stats spec-stats-passed'> 3/3 PASSED </span> </div> <div class='spec-sessions'>  <div class="session-detail session-passed"> <a href="https://automate.browserstack.com/dashboard/v2/builds/e71ade88c0cb5c0d4e15529d98e56c947e8fa220/cypress-tests/tests/f42fcb09949fc61ee55a7f9f9ce39f67ea6708b3Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLVJTX0dyZWVuS2FydF9Db3B5L18wMl9DeXByZXNzX1Zpc2l0Lmpz" rel="noreferrer noopener" target="_blank"> &#10004;  edge 98, OS X Catalina </a> </div> <div class="session-detail session-passed"> <a href="https://automate.browserstack.com/dashboard/v2/builds/e71ade88c0cb5c0d4e15529d98e56c947e8fa220/cypress-tests/tests/1bc4d8e5e8994bcacd9d01f73bda8ff24cac7024Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLVJTX0dyZWVuS2FydF9Db3B5L18wMl9DeXByZXNzX1Zpc2l0Lmpz" rel="noreferrer noopener" target="_blank"> &#10004;  chrome 99, Windows 10 </a> </div> <div class="session-detail session-passed"> <a href="https://automate.browserstack.com/dashboard/v2/builds/e71ade88c0cb5c0d4e15529d98e56c947e8fa220/cypress-tests/tests/d36fa9e4d3413b356b53461128fd242c6f45d911Y3lwcmVzcy9pbnRlZ3JhdGlvbi8xLVJTX0dyZWVuS2FydF9Db3B5L18wMl9DeXByZXNzX1Zpc2l0Lmpz" rel="noreferrer noopener" target="_blank"> &#10004;  firefox 97, OS X Mojave </a> </div> </div> </div> </div> </div> </body> </html>
