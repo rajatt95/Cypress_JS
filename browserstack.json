@@ -27,8 +27,8 @@
         }
     ],
     "run_settings": {
-        "cypress_config_file": "./cypress.json",
-        "project_name": "Cypress - UI Test Automation",
+        "cypress_config_file": "cypress.json",
+        "project_name": "Cypress - Browserstack integration",
         "build_name": "Build #007",
         "exclude": [],
         "parallels": "5",
