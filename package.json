@@ -23,7 +23,10 @@
     "test_edge_specsInFolder_greenKartCopy_headless_cmr": "cypress run --spec cypress/integration/1-RS_GreenKart_Copy/* --browser edge --reporter cypress-mochawesome-reporter",
     "test_edge_specsInFolder_greenKartCopy_headed_cmr": "cypress run --spec cypress/integration/1-RS_GreenKart_Copy/* --browser edge --headed --reporter cypress-mochawesome-reporter",
     "test_edge_specsInFolder_angular_headless_cmr": "cypress run --spec cypress/integration/3-RS_AngularPractice/* --browser edge --reporter cypress-mochawesome-reporter",
-    "test_edge_specsInFolder_angular_headed_cmr": "cypress run --spec cypress/integration/3-RS_AngularPractice/* --browser edge --headed --reporter cypress-mochawesome-reporter"
+    "test_edge_specsInFolder_angular_headed_cmr": "cypress run --spec cypress/integration/3-RS_AngularPractice/* --browser edge --headed --reporter cypress-mochawesome-reporter",
+    "Comment_4": "==================== Browserstack - START (https://www.browserstack.com/docs/automate/cypress )(Reports - ./results/browserstack-cypress-report.html) =======================",
+    "Comment_5":"==================== Run specific specs -> https://www.browserstack.com/docs/automate/cypress/specs-to-run",
+    "test_browserStack_greenKartCopy": "browserstack-cypress run --sync --specs cypress/integration/1-RS_GreenKart_Copy/**/*" 
   },
   "author": "Rajat Verma",
   "license": "ISC",

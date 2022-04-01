@@ -20,8 +20,6 @@
         "code":true,
         "timestamp":"longDate",
         "showPassed":true
-
-
     },
     "retries": {
         "runMode": 1, 
