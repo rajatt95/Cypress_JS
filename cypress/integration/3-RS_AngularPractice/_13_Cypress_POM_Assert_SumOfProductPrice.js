@@ -52,7 +52,8 @@ describe('Test Suite - Rahul Shetty Automation Practice - _13_Cypress_POM_Assert
         //const productsPage = new ProductsPage()
 
         
-        productsPage.elements.link_Checkout().click()
+        //productsPage.elements.link_Checkout().click()
+        productsPage.clickOnCheckoutLink()
 
         /** PRODUCTS PAGE - END*/
 
@@ -86,22 +87,10 @@ describe('Test Suite - Rahul Shetty Automation Practice - _13_Cypress_POM_Assert
             expect(Number(actualFinalProductPrice_Formatted)).to.equal(sum)
           })
 
-          productsSummaryPage.elements.button_Checkout().click()
+          //productsSummaryPage.elements.button_Checkout().click()
+          productsSummaryPage.clickOnCheckoutButton()
 
         /** PRODUCTS SUMMARY PAGE - END*/
-
-
-        /** DELIVERY LOCATION PAGE - START*/
-        // const deliveryLocationPage = new DeliveryLocationPage()
-        // deliveryLocationPage.getTextbox_Location().type('India')
-        // deliveryLocationPage.getDropdown_Location().click()
-        // deliveryLocationPage.getCheckbox_Agree().click()
-        // deliveryLocationPage.getButton_Purchase().click()
-
-        // //deliveryLocationPage.getMessage_Success().should('should.have','Success!')
-        // deliveryLocationPage.getMessage_Success().should('include.text','Success!')
-
-        /** DELIVERY LOCATION PAGE - END*/
 
 
     })//it

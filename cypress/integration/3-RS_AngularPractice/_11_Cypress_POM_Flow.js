@@ -54,13 +54,15 @@ describe('Test Suite - Rahul Shetty Automation Practice - _11_Cypress_POM_Flow',
         /** PRODUCTS PAGE - START*/
         //const productsPage = new ProductsPage()
 
-        productsPage.elements.link_Checkout().click()
+        //productsPage.elements.link_Checkout().click()
+        productsPage.clickOnCheckoutLink()
 
         /** PRODUCTS PAGE - END*/
 
         /** PRODUCTS PAGE - START*/
         //const productsSummaryPage = new ProductsSummaryPage()
-        productsSummaryPage.elements.button_Checkout().click()
+        //productsSummaryPage.elements.button_Checkout().click()
+        productsSummaryPage.clickOnCheckoutButton()
 
         /** PRODUCTS PAGE - END*/
 

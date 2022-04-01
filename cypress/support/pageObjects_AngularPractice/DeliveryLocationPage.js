@@ -1,4 +1,7 @@
 //https://rahulshettyacademy.com/angularpractice/shop
+
+import basePage from "./BasePage"
+
 class DeliveryLocationPage{
 
     elements = { 
@@ -13,9 +16,15 @@ class DeliveryLocationPage{
 
     /** Operations */
 
+    // enterLocation(data){
+    //     this.elements.textBox_Location().type(data)
+    // }    
+
     enterLocation(data){
-        this.elements.textBox_Location().type(data)
+        basePage.fillTextBox(this.elements.textBox_Location(),data)
     }    
+
+
 }
 
 //This is required so that other classes can also use DeliveryLocationPage.js file 

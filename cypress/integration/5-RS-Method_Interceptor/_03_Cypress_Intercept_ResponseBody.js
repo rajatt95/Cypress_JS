@@ -1,9 +1,9 @@
 /// <reference types="Cypress" />
 
-describe('Test Suite - Rahul Shetty - _03_MethodInterceptor_ModifyRequestBody',function(){
+describe('Test Suite - Rahul Shetty - _03_MethodInterceptor_ModifyResponseBody',function(){
 
     
-  it('Test case for modify the Request Body using Cypress',function(){
+  it('Test case for modify the Response Body using Cypress',function(){
     
       cy.visit('https://rahulshettyacademy.com/angularAppdemo/')
       //   cy.log('Application URL : '+cy.url())

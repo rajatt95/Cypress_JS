@@ -1,7 +1,8 @@
 //https://rahulshettyacademy.com/angularpractice/
+import basePage from "./BasePage"
+
 class HomePage{
     
-
     elements = { 
         tab_Shop: () => cy.get(':nth-child(2) > .nav-link'),
         radioButton_Entrepreneur: () => cy.get('#inlineRadio3'),
@@ -12,17 +13,29 @@ class HomePage{
     }
 
     /** Operations */
+       
         enterName(data){
-            this.elements.textBox_Name().type(data)
+            //this.elements.textBox_Name().type(data)
+            basePage.fillTextBox(this.elements.textBox_Name(),data)
         }
 
         selectGender(data){
-             this.elements.dropdown_Gender().select(data)
+            //this.elements.dropdown_Gender().select(data)
+            basePage.selectFromDropdown(this.elements.dropdown_Gender(),data)
         }
 
         gotToShopTab(){
-            this.elements.tab_Shop().click()
+            //this.elements.tab_Shop().click()
+            basePage.clickOnWebElement(this.elements.tab_Shop())
         }
+
+
+        
+
+
+
+
+
 
 }
 
