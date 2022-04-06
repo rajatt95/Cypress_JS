@@ -1,11 +1,18 @@
 version: 2.1
 orbs:
-  # "cypress-io/cypress@1" installs the latest published
-  # version "1.x.y" of the orb. We recommend you then use
-  # the strict explicit version "cypress-io/cypress@1.x.y"
-  # to lock the version and prevent unexpected CI changes
   cypress: cypress-io/cypress@1.29.0
+
+jobs:
+  test:
+    docker:
+      - image: cypress/base:14.16.0
+    steps:
+      - checkout
+      - run: npm install
+      - run: npm ci
+      - run: npm run test_edge_specsInFolder_greenKartCopy_headed_cmr
+
 workflows:
   build:
     jobs:
-      - cypress/run # "run" job comes from "cypress" orb
+      - test

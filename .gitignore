@@ -1,0 +1,5 @@
+# Project exclude paths
+node_modules/
+cypress/reports/mochawesome-report/
+cypress/screenshots/
+browserstack.json
