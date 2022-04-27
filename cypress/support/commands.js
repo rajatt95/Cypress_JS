@@ -32,6 +32,39 @@ Cypress.Commands.add('goToApplication_AutomationPractice', () => {
     cy.visit(Cypress.env("application_URL_AutomationPractice")) 
 })
 
+
+//Login to application using APIs (Inject JWT token into Browswer's Local storage)
+Cypress.Commands.add('loginToApplication_UsingAPI', () => { 
+   
+    //request() -> Method to make the API calls
+    cy.request(
+        //HTTP method
+        "POST",
+        //Request URL
+        "https://www.rahulshettyacademy.com/api/ecom/auth/login",
+        //Request Body
+        {
+            "userEmail":"testtmail95@gmail.com", 
+            "userPassword":"HiRahul@123"
+        }
+    ).then((response)=>{
+        //Assertion for Response status code
+        expect(response.status).to.eq(200);
+
+        //Assertion for Response body
+        expect(response.body).to.have.property(
+            "message","Login Successfully"
+        );
+
+        //Extract the Token and setting it as an Cypress environment variable
+        //This token will be available in entire project
+        Cypress.env('token_login',response.body.token); 
+        
+    });
+
+})//loginToApplication_UsingAPI
+
+
 // //Click using click()
 // Cypress.Commands.add('clickOnElement', (element) => { 
 //    //element.click()
