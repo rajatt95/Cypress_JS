@@ -1,11 +1,13 @@
-# _02_CypressBasics
-This repository has code snippets to start With Cypress basics.
+# CypressBasics
+Automation Testing | Web+API | Cypress | Javascript | VS Code | API Interceptor | Videos | Screenshots | Retries | Mocha | Mochawesome Reports | Design Pattern (Page Object Model) | BrowserStack# Course: <a href="https://www.udemy.com/course/cypress-tutorial/">Cypress -Modern Automation Testing from Scratch + Frameworks</a>
+
+------------------------------------------------------------------------------------------------------------------------
 # Course: <a href="https://www.udemy.com/course/cypress-tutorial/">Cypress -Modern Automation Testing from Scratch + Frameworks</a>
+
 # Tutor: <a href="https://www.udemy.com/user/rahul445/">Rahul Shetty</a>
 
 ------------------------------------------------------------------------------------------------------------------------
 Learnings from Course : 
-<a href ="https://drive.google.com/drive/folders/1tne9pZjgWvfrS0l9tVHs6k1jnQHpTLoA?usp=sharing">Cypress -Modern Automation Testing from Scratch + Frameworks</a>
 ------------------------------------------------------------------------------------------------------------------------
 
 
