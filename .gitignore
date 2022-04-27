@@ -1,4 +1,5 @@
 .vscode
+.DS_Store
 node_modules
 REFERENCE_Learning
 cypress/reports/mochawesome-report/
