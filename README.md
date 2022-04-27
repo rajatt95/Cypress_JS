@@ -1,5 +1,5 @@
 # CypressBasics
-Automation Testing | Web+API | Cypress | Javascript | VS Code | API Interceptor | Videos | Screenshots | Retries | Mocha | Mochawesome Reports | Design Pattern (Page Object Model) | BrowserStack# Course: <a href="https://www.udemy.com/course/cypress-tutorial/">Cypress -Modern Automation Testing from Scratch + Frameworks</a>
+Automation Testing | Web+API | Cypress | Javascript | VS Code | API Interceptor | Videos | Screenshots | Retries | Mocha | Mochawesome Reports | Design Pattern (Page Object Model) | BrowserStack# Course: <a href="https://www.udemy.com/course/cypress-tutorial/">Cypress -Modern Automation Testing from Scratch + Frameworks
 
 ------------------------------------------------------------------------------------------------------------------------
 # Course: <a href="https://www.udemy.com/course/cypress-tutorial/">Cypress -Modern Automation Testing from Scratch + Frameworks</a>
