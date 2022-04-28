@@ -1,7 +1,19 @@
+/**  
+* @author Rajat Verma
+* https://www.linkedin.com/in/rajat-v-3b0685128/
+* https://github.com/rajatt95
+* https://rajatt95.github.io/
+* 
+* Course: Cypress -Modern Automation Testing from Scratch + Frameworks(https://www.udemy.com/course/cypress-tutorial/)
+* Tutor: Rahul Shetty (https://www.udemy.com/user/rahul445/)
+*/
+
+/***************************************************/
+
 
 //Testing Framework - Mocha
 
-describe('Test Suite - Rahul Shetty Green Kart - _12_Cypress_Complete',function(){
+describe('Section_05_RS_UI_Tests_GreenKart - Test Suite - Rahul Shetty Green Kart - _12_Cypress_Complete',function(){
 
     it('Test case for _12_Cypress_Complete',function(){
 
@@ -59,6 +71,6 @@ describe('Test Suite - Rahul Shetty Green Kart - _12_Cypress_Complete',function(
         cy.log('Clicking on Place Order')
         cy.contains('Place Order').click()
 
-    })//if
+    })//it
 
 })//describe

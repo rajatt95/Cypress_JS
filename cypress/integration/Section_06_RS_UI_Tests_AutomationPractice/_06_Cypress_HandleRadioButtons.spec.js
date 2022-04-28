@@ -1,6 +1,18 @@
+/**  
+* @author Rajat Verma
+* https://www.linkedin.com/in/rajat-v-3b0685128/
+* https://github.com/rajatt95
+* https://rajatt95.github.io/
+* 
+* Course: Cypress -Modern Automation Testing from Scratch + Frameworks(https://www.udemy.com/course/cypress-tutorial/)
+* Tutor: Rahul Shetty (https://www.udemy.com/user/rahul445/)
+*/
+
+/***************************************************/
+
 /// <reference types="Cypress" />
 
-describe('Test Suite - Rahul Shetty Automation Practice _06_Cypress_HandleRadioButtons',function(){
+describe('Section_06_RS_UI_Tests_AutomationPractice - Test Suite - Rahul Shetty Automation Practice _06_Cypress_HandleRadioButtons',function(){
 
     it('Test case for _06_Cypress_HandleRadioButtons',function(){
 
@@ -18,6 +30,6 @@ describe('Test Suite - Rahul Shetty Automation Practice _06_Cypress_HandleRadioB
 
         cy.get("input.radioButton[value='radio3']").check().should('be.checked').and('have.value','radio3')
 
-    })//if
+    })//it
 
 })//describe

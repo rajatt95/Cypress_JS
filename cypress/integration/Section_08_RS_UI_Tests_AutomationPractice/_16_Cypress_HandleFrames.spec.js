@@ -1,9 +1,21 @@
+/**  
+* @author Rajat Verma
+* https://www.linkedin.com/in/rajat-v-3b0685128/
+* https://github.com/rajatt95
+* https://rajatt95.github.io/
+* 
+* Course: Cypress -Modern Automation Testing from Scratch + Frameworks(https://www.udemy.com/course/cypress-tutorial/)
+* Tutor: Rahul Shetty (https://www.udemy.com/user/rahul445/)
+*/
+
+/***************************************************/
+
 /// <reference types="Cypress" />
 /// <reference types="cypress-iframe" />
 
 import 'cypress-iframe'
 
-describe('Test Suite - Rahul Shetty Automation Practice _16_Cypress_HandleFrames',function(){
+describe('Section_08_RS_UI_Tests_AutomationPractice - Test Suite - Rahul Shetty Automation Practice _16_Cypress_HandleFrames',function(){
 
     it('Test case for _16_Cypress_HandleFrames',function(){
 
@@ -20,6 +32,6 @@ describe('Test Suite - Rahul Shetty Automation Practice _16_Cypress_HandleFrames
         //Returns 2 elements -> Bronze and Platinum
         cy.iframe().find("h1[class='pricing-title text-white ls-1']").should('have.length',2)
 
-    })//if
+    })//it
 
 })//describe

@@ -1,6 +1,18 @@
+/**  
+* @author Rajat Verma
+* https://www.linkedin.com/in/rajat-v-3b0685128/
+* https://github.com/rajatt95
+* https://rajatt95.github.io/
+* 
+* Course: Cypress -Modern Automation Testing from Scratch + Frameworks(https://www.udemy.com/course/cypress-tutorial/)
+* Tutor: Rahul Shetty (https://www.udemy.com/user/rahul445/)
+*/
+
+/***************************************************/
+
 /// <reference types="Cypress" />
 
-describe('Test Suite - Rahul Shetty Automation Practice - _06_Cypress_CustomCypressCommand',function(){
+describe('Section_09_RS_UI_Tests_AngularPractice - Test Suite - Rahul Shetty Automation Practice - _06_Cypress_CustomCypressCommand',function(){
     
     it('Test case for custom Cypress Command',function(){
         cy.visit('https://rahulshettyacademy.com/angularpractice/')
@@ -25,6 +37,6 @@ describe('Test Suite - Rahul Shetty Automation Practice - _06_Cypress_CustomCypr
       // Assertion for Checkout count
       cy.get('#navbarResponsive > .navbar-nav > .nav-item > .nav-link').should('include.text',' Checkout ( 4 )')
 
-    })//if
+    })//it
 
 })//describe

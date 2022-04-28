@@ -1,6 +1,18 @@
+/**  
+* @author Rajat Verma
+* https://www.linkedin.com/in/rajat-v-3b0685128/
+* https://github.com/rajatt95
+* https://rajatt95.github.io/
+* 
+* Course: Cypress -Modern Automation Testing from Scratch + Frameworks(https://www.udemy.com/course/cypress-tutorial/)
+* Tutor: Rahul Shetty (https://www.udemy.com/user/rahul445/)
+*/
+
+/***************************************************/
+
 /// <reference types="Cypress" />
 
-describe('Test Suite - Rahul Shetty Automation Practice _03_Cypress_HandleDropdownStatic',function(){
+describe('Section_06_RS_UI_Tests_AutomationPractice - Test Suite - Rahul Shetty Automation Practice _03_Cypress_HandleDropdownStatic',function(){
 
     it('Test case for _03_Cypress_HandleDropdownStatic',function(){
 
@@ -19,6 +31,6 @@ describe('Test Suite - Rahul Shetty Automation Practice _03_Cypress_HandleDropdo
         //should('have.value','option1') -> option1 is value attribute
         cy.get('select#dropdown-class-example').select('Option1').should('have.value','option1') // using text
 
-    })//if
+    })//it
 
 })//describe

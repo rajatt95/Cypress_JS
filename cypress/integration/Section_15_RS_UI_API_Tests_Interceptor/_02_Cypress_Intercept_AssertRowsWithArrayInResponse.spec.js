@@ -1,6 +1,18 @@
+/**  
+* @author Rajat Verma
+* https://www.linkedin.com/in/rajat-v-3b0685128/
+* https://github.com/rajatt95
+* https://rajatt95.github.io/
+* 
+* Course: Cypress -Modern Automation Testing from Scratch + Frameworks(https://www.udemy.com/course/cypress-tutorial/)
+* Tutor: Rahul Shetty (https://www.udemy.com/user/rahul445/)
+*/
+
+/***************************************************/
+
 /// <reference types="Cypress" />
 
-describe('Test Suite - Rahul Shetty - _02_MethodInterceptor_ModifyResponseBody_AssertRowsWithArrayInResponse',function(){
+describe('Section_15_RS_UI_Tests_AngularPractice - Test Suite - Rahul Shetty - _02_MethodInterceptor_ModifyResponseBody_AssertRowsWithArrayInResponse',function(){
 
     
     it('Test case for Assertion of Rows With Array In Response ',function(){
@@ -41,6 +53,6 @@ describe('Test Suite - Rahul Shetty - _02_MethodInterceptor_ModifyResponseBody_A
       // Using CSS Selector to deal with Web Elements
       cy.get('p').should('have.text','Oops only 1 Book available')
       
-    })//if
+    })//it
 
 })//describe

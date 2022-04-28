@@ -1,6 +1,18 @@
+/**  
+* @author Rajat Verma
+* https://www.linkedin.com/in/rajat-v-3b0685128/
+* https://github.com/rajatt95
+* https://rajatt95.github.io/
+* 
+* Course: Cypress -Modern Automation Testing from Scratch + Frameworks(https://www.udemy.com/course/cypress-tutorial/)
+* Tutor: Rahul Shetty (https://www.udemy.com/user/rahul445/)
+*/
+
+/***************************************************/
+
 /// <reference types="Cypress" />
 
-describe('Test Suite - Rahul Shetty - _03_MethodInterceptor_ModifyRequestURL',function(){
+describe('Section_15_RS_UI_Tests_AngularPractice - Test Suite - Rahul Shetty - _03_MethodInterceptor_ModifyRequestURL',function(){
 
     
   it('Test case for modify the Request URL using Cypress',function(){
@@ -34,6 +46,6 @@ describe('Test Suite - Rahul Shetty - _03_MethodInterceptor_ModifyRequestURL',fu
       // Wait until Cypress modify the Response body and give it to Browser
       cy.wait('@changedURL')
 
-    })//if
+    })//it
 
 })//describe

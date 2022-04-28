@@ -1,5 +1,5 @@
 {
-    "defaultCommandTimeout":6000,
+    "defaultCommandTimeout":5000,
     "viewportHeight":760,
     "viewportWidth":1100,
     "env":{

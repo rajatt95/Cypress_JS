@@ -1,7 +1,19 @@
+/**  
+* @author Rajat Verma
+* https://www.linkedin.com/in/rajat-v-3b0685128/
+* https://github.com/rajatt95
+* https://rajatt95.github.io/
+* 
+* Course: Cypress -Modern Automation Testing from Scratch + Frameworks(https://www.udemy.com/course/cypress-tutorial/)
+* Tutor: Rahul Shetty (https://www.udemy.com/user/rahul445/)
+*/
+
+/***************************************************/
+
 
 //Testing Framework - Mocha
 
-describe('Test Suite - Rahul Shetty Green Kart - _07_Cypress_Eq_Click',function(){
+describe('Section_05_RS_UI_Tests_GreenKart - Test Suite - Rahul Shetty Green Kart - _07_Cypress_Eq_Click',function(){
 
     it('Test case for _07_Cypress_Eq_Click',function(){
 
@@ -29,6 +41,6 @@ describe('Test Suite - Rahul Shetty Green Kart - _07_Cypress_Eq_Click',function(
         //Out of 4 elements -> Go to 2nd element which has text 'ADD TO CART' and perform click operation on it.
         cy.get('.products').find('.product').eq(2).contains('ADD TO CART').click()
 
-    })//if
+    })//it
 
 })//describe

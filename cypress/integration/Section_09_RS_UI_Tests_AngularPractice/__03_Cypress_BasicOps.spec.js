@@ -1,8 +1,20 @@
+/**  
+* @author Rajat Verma
+* https://www.linkedin.com/in/rajat-v-3b0685128/
+* https://github.com/rajatt95
+* https://rajatt95.github.io/
+* 
+* Course: Cypress -Modern Automation Testing from Scratch + Frameworks(https://www.udemy.com/course/cypress-tutorial/)
+* Tutor: Rahul Shetty (https://www.udemy.com/user/rahul445/)
+*/
+
+/***************************************************/
+
 /// <reference types="Cypress" />
 import HomePage from '../../support/pageObjects_AutomationPractice/HomePage';
 import DeliveryLocationPage from '../../support/pageObjects_AutomationPractice/HomePage'
 
-describe('Test Suite - Custom Cypress Commands - _01_Cypress_BasicOps',function(){
+describe('Section_09_RS_UI_Tests_AngularPractice - Test Suite - Custom Cypress Commands - _01_Cypress_BasicOps',function(){
     
     it('Test case for basic operations using Cypress',function(){
         //cy.visit('https://rahulshettyacademy.com/angularpractice/')
@@ -23,6 +35,6 @@ describe('Test Suite - Custom Cypress Commands - _01_Cypress_BasicOps',function(
 
         //cy.clickOnElement(homePage.getDropdown_Example)
 
-    })//if
+    })//it
 
 })//describe

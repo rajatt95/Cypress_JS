@@ -1,10 +1,22 @@
+/**  
+* @author Rajat Verma
+* https://www.linkedin.com/in/rajat-v-3b0685128/
+* https://github.com/rajatt95
+* https://rajatt95.github.io/
+* 
+* Course: Cypress -Modern Automation Testing from Scratch + Frameworks(https://www.udemy.com/course/cypress-tutorial/)
+* Tutor: Rahul Shetty (https://www.udemy.com/user/rahul445/)
+*/
+
+/***************************************************/
+
 /// <reference types="Cypress" />
 import deliveryLocationPage from '../../support/pageObjects_AngularPractice/DeliveryLocationPage'
 import homePage from '../../support/pageObjects_AngularPractice/HomePage'
 import productsPage from '../../support/pageObjects_AngularPractice/ProductsPage'
 import productsSummaryPage from '../../support/pageObjects_AngularPractice/ProductsSummaryPage'
 
-describe('Test Suite - Rahul Shetty Automation Practice - _12_Cypress_POM_Flow_OverrideCypress_JSON',function(){
+describe('Section_11_RS_UI_Tests_AngularPractice - Test Suite - Rahul Shetty Automation Practice - _12_Cypress_POM_Flow_OverrideCypress_JSON',function(){
     
   before(() => {
     // runs once before all tests in the block
