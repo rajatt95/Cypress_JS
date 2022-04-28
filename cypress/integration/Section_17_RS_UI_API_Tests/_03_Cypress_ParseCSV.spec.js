@@ -1,11 +1,13 @@
 /// <reference types="Cypress" />
 const neatCSV = require('neat-csv');
 
-describe('Test Suite - Rahul Shetty',function(){  
+describe('Test Suite - Rahul Shetty',function(){
+    
     it('Test case for - Parse CSV file',async function(){
-  
+    
       //Get the Project path
       const projectPath = Cypress.config("fileServerFolder");
+
       //Convert file to text
       cy.readFile(projectPath+"/cypress/downloads/order-invoice_testtmail95.csv")
       .then(async (text)=>{
@@ -31,7 +33,9 @@ describe('Test Suite - Rahul Shetty',function(){
         expect(actualOrderedByInCSV).to.equal('testtmail95@gmail.com');
         expect(actualProductDescriptionInCSV).to.equal('adidas original');
         expect(actualProductPriceInCSV).to.equal('31500');
+
       });
+      
     })//it
 
 })//describe
