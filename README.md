@@ -1,4 +1,4 @@
-# CypressBasics
+# Cypress
 Automation Testing | Web+API | Cypress | Javascript | VS Code | API Interceptor | Videos | Screenshots | Retries | Mocha | Mochawesome Reports | Design Pattern (Page Object Model) | BrowserStack
 
 ------------------------------------------------------------------------------------------------------------------------
