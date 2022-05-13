@@ -72,6 +72,9 @@ Cypress.Commands.add('loginToApplication_UsingAPI', () => {
         //This token will be available in entire project
         Cypress.env('token_login',response.body.token); 
         
+        //Use this, if you are getting token in Response Headers
+        //Cypress.env('token_login',response.headers.token); 
+        
     });
 
 })//loginToApplication_UsingAPI

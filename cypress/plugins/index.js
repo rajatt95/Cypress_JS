@@ -21,6 +21,9 @@ module.exports = (on, config) => {
   // `config` is the resolved Cypress config
   require('cypress-mochawesome-reporter/plugin')(on);
 
+  // This plugin is added for executing the Cypress test cases with TAGGING feature
+  require('cypress-grep/src/plugin')(config);
+
     // https://docs.cypress.io/api/plugins/after-run-api#Log-the-number-of-passed-tests-of-a-run
     // on('after:run', (results) => {
     //   if (results) {

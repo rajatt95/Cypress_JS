@@ -7,14 +7,13 @@
     "Comment #101": "Configurations - START",
     "cypress_open": "cypress open",
     "test_all_headed": "",
-    "test_single_Chrome_headed":"cypress run --spec cypress/integration/*/_05_Cypress_Assertion_Visible.spec.js --headed --browser chrome --reporter cypress-mochawesome-reporter",
-    "test_single_Chrome_headless":"cypress run --spec cypress/integration/*/_05_Cypress_Assertion_Visible.spec.js --browser chrome --reporter cypress-mochawesome-reporter",
-    "test_single_Electron_headed":"cypress run --spec cypress/integration/*/_05_Cypress_Assertion_Visible.spec.js --headed --reporter cypress-mochawesome-reporter",
-    "test_single_Edge_headed":"cypress run --spec cypress/integration/*/_05_Cypress_Assertion_Visible.spec.js --headed --browser edge --reporter cypress-mochawesome-reporter",
-    "test_single_Firefox_headed":"cypress run --spec cypress/integration/*/_05_Cypress_Assertion_Visible.spec.js --headed --browser firefox --reporter cypress-mochawesome-reporter",
-    "test_multiple_Specs_Electron_headed":"cypress run --spec cypress/integration/*/_05_Cypress_Assertion_Visible.spec.js,cypress/integration/*/_04_Cypress_Type_Assertion.spec.js --headed --reporter cypress-mochawesome-reporter",
+    "test_single_Chrome_headed": "cypress run --spec cypress/integration/*/_05_Cypress_Assertion_Visible.spec.js --headed --browser chrome --reporter cypress-mochawesome-reporter",
+    "test_single_Chrome_headless": "cypress run --spec cypress/integration/*/_05_Cypress_Assertion_Visible.spec.js --browser chrome --reporter cypress-mochawesome-reporter",
+    "test_single_Electron_headed": "cypress run --spec cypress/integration/*/_05_Cypress_Assertion_Visible.spec.js --headed --reporter cypress-mochawesome-reporter",
+    "test_single_Edge_headed": "cypress run --spec cypress/integration/*/_05_Cypress_Assertion_Visible.spec.js --headed --browser edge --reporter cypress-mochawesome-reporter",
+    "test_single_Firefox_headed": "cypress run --spec cypress/integration/*/_05_Cypress_Assertion_Visible.spec.js --headed --browser firefox --reporter cypress-mochawesome-reporter",
+    "test_multiple_Specs_Electron_headed": "cypress run --spec cypress/integration/*/_05_Cypress_Assertion_Visible.spec.js,cypress/integration/*/_04_Cypress_Type_Assertion.spec.js --headed --reporter cypress-mochawesome-reporter",
     "Comment #102": "Configurations - END",
-    
     "Comment #1": "UDEMY-RS (Section 1: Introduction to Cypress and its advantages in Automation world) - START",
     "Comment #2": "UDEMY-RS (Section 1: Introduction to Cypress and its advantages in Automation world) - END",
     "Comment #3": "UDEMY-RS (Section 4: Getting started with Cypress Test Automation) - START",
@@ -39,7 +38,6 @@
     "Comment #22": "UDEMY-RS (Section 15: Mocking Http requests/responses with Cypress (XHR Testing)) - END",
     "Comment #23": "UDEMY-RS (Section 17: Session Token & Local Storage Data saving with Cypress & CSV Parsers) - START",
     "Comment #24": "UDEMY-RS (Section 17: Session Token & Local Storage Data saving with Cypress & CSV Parsers) - END",
-    
     "Comment #25": "UDEMY-RS (FOLDER wise) - START",
     "test_folder_RS_Section_01": "cypress run --spec cypress/integration//Section_01_RS_UI_GreenKart/*.spec.js --headed --reporter cypress-mochawesome-reporter",
     "test_folder_RS_Section_04": "cypress run --spec cypress/integration/Section_04_RS_UI_Tests_GreenKart/*.spec.js --headed --reporter cypress-mochawesome-reporter",
@@ -54,10 +52,22 @@
     "test_folder_RS_Section_15": "cypress run --spec cypress/integration/Section_15_RS_UI_API_Tests_Interceptor/*.spec.js --headed --reporter cypress-mochawesome-reporter",
     "test_folder_RS_Section_17": "cypress run --spec cypress/integration/Section_17_RS_UI_API_Tests/*.spec.js --headed --reporter cypress-mochawesome-reporter",
     "Comment #26": "UDEMY-RS (FOLDER wise) - END",
-
+   
     "Comment #51": "Other than Course (RAJAT) - START",
-    "test_browserStack_Section_17": "browserstack-cypress run --sync --specs cypress/integration/Section_17_RS_UI_API_Tests/*.spec.js", 
+   
+    "test_browserStack_Section_17": "browserstack-cypress run --sync --specs cypress/integration/Section_17_RS_UI_API_Tests/*.spec.js",
+    
+    "test_TAGGING_SMOKE_Title": "cypress run --spec cypress/integration/Z_TAGGING_BasedOn_Title_And_Tag/*.spec.js --headed --reporter cypress-mochawesome-reporter --env grep=\"@smoke\"",
+    
+    "test_TAGGING_SMOKE_Title": "cypress run ..... --env grep=\"@smoke\"",
+    
+
+    "test_TAGGING_SMOKE_Tag": "cypress run --spec cypress/integration/Z_TAGGING_BasedOn_Title_And_Tag/*.spec.js --headed --reporter cypress-mochawesome-reporter --env grepTags=\"smoke\"",
+    "test_TAGGING_REGRESSION_Tag": "cypress run --spec cypress/integration/Z_TAGGING_BasedOn_Title_And_Tag/*.spec.js --headed --reporter cypress-mochawesome-reporter --env grepTags=\"regression\"",
+    "test_TAGGING_REGRESSION_SMOKE_Tag": "cypress run --spec cypress/integration/Z_TAGGING_BasedOn_Title_And_Tag/*.spec.js --headed --reporter cypress-mochawesome-reporter --env grepTags=\"regression smoke\"",
+       
     "Comment #52": "Other than Course (RAJAT) - END",
+   
 
     "Comment #53": "Updations pending for below npm scripts",
     "test_electron_single_retryFailedTestCase": "node_modules/.bin/cypress run --spec cypress/integration/3-RS_AngularPractice/_16_Cypress_RetryFailedTest.spec.js --headed --reporter mochawesome",
@@ -67,19 +77,20 @@
     "test_edge_specsInFolder_angular_headless_cmr": "cypress run --spec cypress/integration/3-RS_AngularPractice/* --browser edge --reporter cypress-mochawesome-reporter",
     "test_edge_specsInFolder_angular_headed_cmr": "cypress run --spec cypress/integration/3-RS_AngularPractice/* --browser edge --headed --reporter cypress-mochawesome-reporter",
     "Comment_4": "==================== Browserstack - START (https://www.browserstack.com/docs/automate/cypress )(Reports - ./results/browserstack-cypress-report.html) =======================",
-    "Comment_5":"==================== Run specific specs -> https://www.browserstack.com/docs/automate/cypress/specs-to-run",
-    "test_browserStack_greenKartCopy": "browserstack-cypress run --sync --specs cypress/integration/1-RS_GreenKart_Copy/**/*" 
+    "Comment_5": "==================== Run specific specs -> https://www.browserstack.com/docs/automate/cypress/specs-to-run",
+    "test_browserStack_greenKartCopy": "browserstack-cypress run --sync --specs cypress/integration/1-RS_GreenKart_Copy/**/*"
   },
   "author": "Rajat Verma",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.5.3",
+    "cypress": "^9.6.1",
+    "cypress-grep": "^2.13.1",
     "cypress-iframe": "^1.0.1",
     "cypress-mochawesome-reporter": "^3.0.0",
     "cypress-xpath": "^1.6.2",
     "mocha": "^9.2.2",
     "mochawesome": "^7.1.3",
-    "neat-csv":"5.1.0"
+    "neat-csv": "5.1.0"
   },
   "cypress-xpath": "^1.6.2"
 }

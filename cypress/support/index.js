@@ -35,3 +35,6 @@ import 'cypress-xpath'
 
 // https://dzone.com/articles/cypress-generate-html-results-with-screenshot -> Embedded Screenshots in Mochawesome report
 import 'cypress-mochawesome-reporter/register';
+
+// This plugin is added for executing the Cypress test cases with TAGGING feature
+require('cypress-grep')()
