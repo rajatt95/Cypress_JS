@@ -52,23 +52,13 @@
     "test_folder_RS_Section_15": "cypress run --spec cypress/integration/Section_15_RS_UI_API_Tests_Interceptor/*.spec.js --headed --reporter cypress-mochawesome-reporter",
     "test_folder_RS_Section_17": "cypress run --spec cypress/integration/Section_17_RS_UI_API_Tests/*.spec.js --headed --reporter cypress-mochawesome-reporter",
     "Comment #26": "UDEMY-RS (FOLDER wise) - END",
-   
     "Comment #51": "Other than Course (RAJAT) - START",
-   
     "test_browserStack_Section_17": "browserstack-cypress run --sync --specs cypress/integration/Section_17_RS_UI_API_Tests/*.spec.js",
-    
-    "test_TAGGING_SMOKE_Title": "cypress run --spec cypress/integration/Z_TAGGING_BasedOn_Title_And_Tag/*.spec.js --headed --reporter cypress-mochawesome-reporter --env grep=\"@smoke\"",
-    
-    "test_TAGGING_SMOKE_Title": "cypress run ..... --env grep=\"@smoke\"",
-    
-
-    "test_TAGGING_SMOKE_Tag": "cypress run --spec cypress/integration/Z_TAGGING_BasedOn_Title_And_Tag/*.spec.js --headed --reporter cypress-mochawesome-reporter --env grepTags=\"smoke\"",
-    "test_TAGGING_REGRESSION_Tag": "cypress run --spec cypress/integration/Z_TAGGING_BasedOn_Title_And_Tag/*.spec.js --headed --reporter cypress-mochawesome-reporter --env grepTags=\"regression\"",
-    "test_TAGGING_REGRESSION_SMOKE_Tag": "cypress run --spec cypress/integration/Z_TAGGING_BasedOn_Title_And_Tag/*.spec.js --headed --reporter cypress-mochawesome-reporter --env grepTags=\"regression smoke\"",
-       
+    "test_TAGGING_SMOKE_Title": "cypress run --spec cypress/integration/Z_01_TAGGING_BasedOn_Title_And_Tag/*.spec.js --headed --reporter cypress-mochawesome-reporter --env grep=\"@smoke\"",
+    "test_TAGGING_SMOKE_Tag": "cypress run --spec cypress/integration/Z_01_TAGGING_BasedOn_Title_And_Tag/*.spec.js --headed --reporter cypress-mochawesome-reporter --env grepTags=\"smoke\"",
+    "test_TAGGING_REGRESSION_Tag": "cypress run --spec cypress/integration/Z_01_TAGGING_BasedOn_Title_And_Tag/*.spec.js --headed --reporter cypress-mochawesome-reporter --env grepTags=\"regression\"",
+    "test_TAGGING_REGRESSION_SMOKE_Tag": "cypress run --spec cypress/integration/Z_01_TAGGING_BasedOn_Title_And_Tag/*.spec.js --headed --reporter cypress-mochawesome-reporter --env grepTags=\"regression smoke\"",
     "Comment #52": "Other than Course (RAJAT) - END",
-   
-
     "Comment #53": "Updations pending for below npm scripts",
     "test_electron_single_retryFailedTestCase": "node_modules/.bin/cypress run --spec cypress/integration/3-RS_AngularPractice/_16_Cypress_RetryFailedTest.spec.js --headed --reporter mochawesome",
     "Comment_3": "==================== Cypress-mochawesome-reporter - START (reports/mochawesome-report/) =======================",
@@ -83,7 +73,7 @@
   "author": "Rajat Verma",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.6.1",
+    "cypress": "^10.3.1",
     "cypress-grep": "^2.13.1",
     "cypress-iframe": "^1.0.1",
     "cypress-mochawesome-reporter": "^3.0.0",
