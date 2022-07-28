@@ -1,5 +1,5 @@
 # Cypress
-Automation Testing | Web+API | Cypress | Javascript | VS Code | API Interceptor | Videos | Screenshots | Retries | Mocha | Mochawesome Reports | Design Pattern (Page Object Model) | BrowserStack
+Automation Testing | Web+API | Cypress | Javascript | VS Code | API Interceptor | Videos | Screenshots | Retries | Mocha | Mochawesome Reports | Design Pattern (Page Object Model) | BrowserStack | Tagging
 
 ------------------------------------------------------------------------------------------------------------------------
 # Course: <a href="https://www.udemy.com/course/cypress-tutorial/">Cypress -Modern Automation Testing from Scratch + Frameworks</a>
@@ -7,7 +7,9 @@ Automation Testing | Web+API | Cypress | Javascript | VS Code | API Interceptor 
 # Tutor: <a href="https://www.udemy.com/user/rahul445/">Rahul Shetty</a>
 
 ------------------------------------------------------------------------------------------------------------------------
-Learnings from Course : 
+# Learnings from Course : [Summary_UDEMY_RS_Cypress - Modern Automation Testing from Scratch + Frameworks.pdf](https://github.com/rajatt95/Cypress_JS/files/8687135/Summary_UDEMY_RS_Cypress.-.Modern.Automation.Testing.from.Scratch.%2B.Frameworks.pdf)
+
+
 ------------------------------------------------------------------------------------------------------------------------
 
 
