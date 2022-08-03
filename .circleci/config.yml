@@ -1,7 +1,7 @@
 version: 2.1
 orbs:
-  # cypress: cypress-io/cypress@1
   cypress: cypress-io/cypress@2.1.0
+  # cypress: cypress-io/cypress@1
   # cypress: cypress-io/cypress@1.29.0
 
 jobs:
@@ -12,7 +12,7 @@ jobs:
       - checkout
       - run: npm install
       - run: npm ci
-      - run: npm run test_single_Chrome_headed
+      - run: npm run test_single_Electron_headed
 
 workflows:
   build:
