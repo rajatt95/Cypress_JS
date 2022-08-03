@@ -1,18 +1,18 @@
-# version: 2.1
-# orbs:
-#   cypress: cypress-io/cypress@1.29.0
+version: 2.1
+orbs:
+  cypress: cypress-io/cypress@1.29.0
 
-# jobs:
-#   test:
-#     docker:
-#       - image: cypress/base:14.16.0
-#     steps:
-#       - checkout
-#       - run: npm install
-#       - run: npm ci
-#       - run: npm run test_edge_specsInFolder_greenKartCopy_headed_cmr
+jobs:
+  test:
+    docker:
+      - image: cypress/base:14.16.0
+    steps:
+      - checkout
+      - run: npm install
+      - run: npm ci
+      - run: npm run test_single_Chrome_headed
 
-# workflows:
-#   build:
-#     jobs:
-#       - test
+workflows:
+  build:
+    jobs:
+      - test
