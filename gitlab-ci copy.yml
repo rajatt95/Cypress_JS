@@ -1,0 +1,11 @@
+# https://docs.cypress.io/guides/continuous-integration/gitlab-ci
+
+# stages:          # List of stages for jobs, and their order of execution
+#   - test
+
+# test:
+#   image: cypress/browsers:node14.19.0-chrome100-ff99-edge
+#   stage: test
+#   script:
+#     - npm ci # This helps to install all the dependencies
+#     - npm run test_single_Chrome_headed # One the script in package.json file 

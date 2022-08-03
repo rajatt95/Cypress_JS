@@ -1,18 +1,23 @@
-version: 2.1
-orbs:
-  cypress: cypress-io/cypress@1.29.0
+# https://circleci.com/developer/orbs/orb/cypress-io/cypress
+# https://docs.cypress.io/guides/continuous-integration/circleci#What-you-ll-learn
 
-jobs:
-  test:
-    docker:
-      - image: cypress/base:14.16.0
-    steps:
-      - checkout
-      - run: npm install
-      - run: npm ci
-      - run: npm run test_single_Chrome_headed
+# version: 2.1
+# orbs:
+#   cypress: cypress-io/cypress@2.1.0
+#   # cypress: cypress-io/cypress@1
+#   # cypress: cypress-io/cypress@1.29.0
 
-workflows:
-  build:
-    jobs:
-      - test
+# jobs:
+#   test:
+#     docker:
+#       - image: cypress/base:14.16.0
+#     steps:
+#       - checkout
+#       - run: npm install
+#       - run: npm ci
+#       - run: npm run test_single_Electron_headed
+
+# workflows:
+#   build:
+#     jobs:
+#       - test
