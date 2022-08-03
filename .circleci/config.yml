@@ -1,5 +1,4 @@
-# https://circleci.com/developer/orbs/orb/cypress-io/cypress
-# https://docs.cypress.io/guides/continuous-integration/circleci#What-you-ll-learn
+# https://docs.cypress.io/guides/continuous-integration/circleci#Basic-Setup
 
 # version: 2.1
 # orbs:
