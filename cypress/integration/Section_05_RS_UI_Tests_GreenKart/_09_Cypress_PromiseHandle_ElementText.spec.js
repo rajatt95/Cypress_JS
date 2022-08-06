@@ -15,7 +15,7 @@
 
 describe('Section_05_RS_UI_Tests_GreenKart - Test Suite - Rahul Shetty Green Kart - _09_Cypress_PromiseHandle_ElementText',function(){
 
-    it('Test case for _09_Cypress_PromiseHandl_ElementText',function(){
+    it('Test case for _09_Cypress_PromiseHandle_ElementText',function(){
 
         //Test One -> Steps
         //Selenium WebDriver -> driver.get("https://rahulshettyacademy.com/seleniumPractise/");
